@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>نموذج التسجيل</title>
+</head>
+<body dir="rtl">
+  <h2>نموذج تسجيل المعلومات الشخصية</h2>
+
+  <form action="https://formspree.io/f/xyzeapep" method="POST">
+    <!-- اسم -->
+    <label for="first_name">الاسم:</label><br>
+    <input type="text" id="first_name" name="first_name" required><br><br>
+
+    <!-- النسب -->
+    <label for="last_name">النسب:</label><br>
+    <input type="text" id="last_name" name="last_name" required><br><br>
+
+    <!-- السن -->
+    <label for="age">السن:</label><br>
+    <input type="number" id="age" name="age" required><br><br>
+
+    <!-- تاريخ الازدياد -->
+    <label for="birth_date">تاريخ الازدياد:</label><br>
+    <input type="date" id="birth_date" name="birth_date" required><br><br>
+
+    <!-- المدينة -->
+    <label for="city">المدينة:</label><br>
+    <input type="text" id="city" name="city" required><br><br>
+
+    <!-- رقم البطاقة الوطنية -->
+    <label for="id_number">رقم البطاقة الوطنية:</label><br>
+    <input type="text" id="id_number" name="id_number" required><br><br>
+
+    <!-- زر الإرسال -->
+    <input type="submit" value="تسجيل">
+  </form>
+
+</body>
+</html>
